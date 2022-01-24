@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>String Templete</title>
+</head>
+<body>
+    <script>
+
+        const name = "Qonita Masyitoh";
+        const firstName ="IDN";
+        const middleName ="Boarding";
+        const lastName ="School";
+
+
+        const Templete = `Name :${name}`;
+       console.info(templete);
+       const school = `School: ${firstName} ${middleName} ${lastName}`;
+       //'const school2 = "school :" + "" + firstName + "" + middleName + "" + lastName;
+       console.info(school);
+       // console.info(school2);
+
+       // Expression String Template
+       const nilai = 50;
+       const template2 = `Name : ${name}, Lulus : ${nilai > 70}`;
+       console.info(template2);
+
+       const multiline =`IDN Boarding School
+        terletak di JOnggol 
+        Saya senang sekolah disini
+        Ini adalah sekolah tercintahhh`;
+
+        document.writeln(multiline);
+
+    </script>
+    
+</body>
+</html>
